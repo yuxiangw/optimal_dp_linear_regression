@@ -4,7 +4,7 @@ This package contains the Matlab code used to reproduce the experimental results
 
 * Wang, Yu-Xiang. "Revisiting differentially private linear regression: optimal and adaptive prediction & estimation in unbounded domain." in Uncertainties in Artificial Intelligence (2018).
 
-[Arxiv link]: https://arxiv.org/abs/1803.02596
+Arxiv [https://arxiv.org/abs/1803.02596](https://arxiv.org/abs/1803.02596)
 
 * TL;DR: AdaOPS and AdaSSP can automatically adapts to structures of the data set while preserving (eps,delta)-Differential Privacy. 
 
@@ -20,29 +20,27 @@ This package contains the Matlab code used to reproduce the experimental results
 
 ## Sample outputs:
 
-### Statistical learning: Varying $\epsilon$, $\delta = 1e-6$ 
+### 
 
-<img src="https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/results_bike.png" alt="Prediction on the `bike' data set" width="450x"/> 
+<img src="https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/results_bike.png" alt="Prediction on the `bike' data set" width="450x"/>  <img src="https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/Gaussian_MSE_eps_1.png" alt="Estimation of linear Gaussian model parameters" width="450x"/>
 
-### Statistical estimation: $\epsilon = 1.0, \delta = 1e-6$ 
-<img src="https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/Gaussian_MSE_eps_1.png" alt="Estimation of linear Gaussian model parameters" width="450x"/>
-
+Left: Statistical learning: Varying \eps, \delta = 1e-6.  Right: Statistical estimation: \eps = 1.0, \delta = 1e-6
 
 
 
-## Where are the 36 data sets used in this repository coming from:
+## Where are the 36 data sets used in this repository coming from?
 
 * Original data source
 
-[UCI Machine Learning Repository]: https://archive.ics.uci.edu/ml/index.php
+[UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
 
 * Actual data source
 
-[Zichao Yang]: https://github.com/zcyang 
+Zichao Yang: [https://github.com/zcyang](https://github.com/zcyang)
 
 * Yang, Zichao, Andrew Wilson, Alex Smola, and Le Song. "A la carte–learning fast kernels." In Artificial Intelligence and Statistics, pp. 1098-1106. 2015.
 
-## How to use the code to reproduce the experiments?
+## How to use the code?
 
 1. (Optionally) get the four somewhat large data sets (all other 32 data sets are stored in the pre-processed format)
 ```
