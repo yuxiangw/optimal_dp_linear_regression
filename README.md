@@ -1,21 +1,12 @@
-# optimal and adaptive differentially private linear regression
+# Optimal and adaptive differentially private linear regression
 
-This package contains the Matlab code used to reproduce the experimental results of the following paper. 
+This package contains the Matlab code used to reproduce the experimental results of the following paper:
 
-Wang, Yu-Xiang. "Revisiting differentially private linear regression: optimal and adaptive prediction & estimation in unbounded domain." in Uncertainties in Artificial Intelligence (2018).
+* Wang, Yu-Xiang. "Revisiting differentially private linear regression: optimal and adaptive prediction & estimation in unbounded domain." in Uncertainties in Artificial Intelligence (2018).
 
-Arxiv link [https://arxiv.org/abs/1803.02596]: https://arxiv.org/abs/1803.02596
+[Arxiv link]: https://arxiv.org/abs/1803.02596
 
-Such as the one below:
-
-### Statistical learning: Varying $\epsilon$, $\delta = 1e-6$ 
-
-![alt text](https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/results_bike.png "Prediction on the `bike' data set")
-
-### Statistical estimation: $\epsilon = 1.0, \delta = 1e-6$ 
-
-![alt text](https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/Gaussian_MSE_eps_1.png "Estimation of linear Gaussian model parameters")
-
+* TL;DR: AdaOPS and AdaSSP can automatically adapts to structures of the data set while preserving (eps,delta)-Differential Privacy. 
 
 ## bibtex entry:
 
@@ -27,15 +18,29 @@ Such as the one below:
 }
 ```
 
+## Sample outputs:
+
+### Statistical learning: Varying $\epsilon$, $\delta = 1e-6$ 
+
+<img src="https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/results_bike.png" alt="Prediction on the `bike' data set" width="450x"/> 
+
+### Statistical estimation: $\epsilon = 1.0, \delta = 1e-6$ 
+<img src="https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/Gaussian_MSE_eps_1.png" alt="Estimation of linear Gaussian model parameters" width="450x"/>
+
+
+
 
 ## Where are the 36 data sets used in this repository coming from:
 
-Original data source: 
-[UCI Machine Learning Repository] https://archive.ics.uci.edu/ml/index.php
+* Original data source
 
-Actual data source:  [Zichao Yang] https://github.com/zcyang 
+[UCI Machine Learning Repository]: https://archive.ics.uci.edu/ml/index.php
 
-Yang, Zichao, Andrew Wilson, Alex Smola, and Le Song. "A la carte–learning fast kernels." In Artificial Intelligence and Statistics, pp. 1098-1106. 2015.
+* Actual data source
+
+[Zichao Yang]: https://github.com/zcyang 
+
+* Yang, Zichao, Andrew Wilson, Alex Smola, and Le Song. "A la carte–learning fast kernels." In Artificial Intelligence and Statistics, pp. 1098-1106. 2015.
 
 ## How to use the code to reproduce the experiments?
 
