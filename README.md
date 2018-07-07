@@ -36,3 +36,29 @@ Original data source:
 Actual data source:  [Zichao Yang] https://github.com/zcyang 
 
 Yang, Zichao, Andrew Wilson, Alex Smola, and Le Song. "A la carte–learning fast kernels." In Artificial Intelligence and Statistics, pp. 1098-1106. 2015.
+
+## How to use the code to reproduce the experiments?
+
+1. (Optionally) get the four somewhat large data sets (all other 32 data sets are stored in the pre-processed format)
+```
+cd data
+chmod 755 wget_largedata.sh
+./wget_largedata.sh
+```
+
+You might need to do some further processing to those four data sets to ensure all fields are numerical, there are no headers and the last column is the label to predict.
+
+2. Process the data sets into `*.mat` files. In MATLAB:
+```
+cd data
+generatedata_all
+```
+This will process the datasets in standard ways.
+
+3. Run UCI data experiments
+
+Run `code/exp_uci.m`
+
+4. Run synthetic data experiments
+
+Run `code/exp_simulation.m`
