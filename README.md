@@ -1,10 +1,17 @@
 # optimal and adaptive differentially private linear regression
 
-## Reference:
+This package contains the Matlab code used to reproduce the experimental results of the following paper. 
 
 Wang, Yu-Xiang. "Revisiting differentially private linear regression: optimal and adaptive prediction & estimation in unbounded domain." in Uncertainties in Artificial Intelligence (2018).
 
 Arxiv link [https://arxiv.org/abs/1803.02596]: https://arxiv.org/abs/1803.02596
+
+Such as the one below:
+
+![alt text](https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/bike_balanced.pdf "Prediction on the `bike' data set")
+
+![alt text](https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/Gaussian_MSE_eps_1.pdf "Estimation of linear Gaussian model parameters")
+
 
 ## bibtex entry:
 
