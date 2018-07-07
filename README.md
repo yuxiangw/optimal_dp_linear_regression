@@ -10,7 +10,8 @@ Arxiv [https://arxiv.org/abs/1803.02596](https://arxiv.org/abs/1803.02596)
 
 ## bibtex entry:
 
-```@inproceedings{wang2018revisiting,
+```
+@inproceedings{wang2018revisiting,
   title={Revisiting differentially private linear regression: optimal and adaptive prediction \& estimation in unbounded domain},
   author={Wang, Yu-Xiang},
   booktitle={Uncertainty in Artificial Intelligence (UAI-18)},
@@ -22,7 +23,7 @@ Arxiv [https://arxiv.org/abs/1803.02596](https://arxiv.org/abs/1803.02596)
 
 ### 
 
-<img src="https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/results_bike.png" alt="Prediction on the `bike' data set" width="450x"/>  <img src="https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/Gaussian_MSE_eps_1.png" alt="Estimation of linear Gaussian model parameters" width="450x"/>
+<img src="https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/results_bike.png" alt="Prediction on the `bike' data set" width="400x"/>  <img src="https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/Gaussian_MSE_eps_1.png" alt="Estimation of linear Gaussian model parameters" width="400x"/>
 
 Left: Statistical learning: Varying \eps, \delta = 1e-6.  Right: Statistical estimation: \eps = 1.0, \delta = 1e-6
 
