@@ -10,22 +10,22 @@ Such as the one below:
 
 ### Statistical learning: Varying $\epsilon$, $\delta = 1e-6$ 
 
-![alt text](https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/bike_balanced.pdf "Prediction on the `bike' data set")
+![alt text](https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/results_bike.png "Prediction on the `bike' data set")
 
 ### Statistical estimation: $\epsilon = 1.0, \delta = 1e-6$ 
 
-![alt text](https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/Gaussian_MSE_eps_1.pdf "Estimation of linear Gaussian model parameters")
+![alt text](https://github.com/yuxiangw/optimal_dp_linear_regression/blob/master/figures/Gaussian_MSE_eps_1.png "Estimation of linear Gaussian model parameters")
 
 
 ## bibtex entry:
 
-'''@inproceedings{wang2018revisiting,
+```@inproceedings{wang2018revisiting,
   title={Revisiting differentially private linear regression: optimal and adaptive prediction \& estimation in unbounded domain},
   author={Wang, Yu-Xiang},
   booktitle={Uncertainty in Artificial Intelligence (UAI-18)},
   year={2018}
 }
-'''
+```
 
 
 ## Where are the 36 data sets used in this repository coming from:

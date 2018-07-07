@@ -1,0 +1,4 @@
+buzz https://archive.ics.uci.edu/ml/machine-learning-databases/00248/
+houseelectric https://archive.ics.uci.edu/ml/machine-learning-databases/00235/
+slice https://archive.ics.uci.edu/ml/machine-learning-databases/00206/
+song https://archive.ics.uci.edu/ml/machine-learning-databases/00203/
